@@ -19,7 +19,7 @@ const local_api_1 = require("local-api");
 exports.serveCommand = new commander_1.Command()
     .command('serve [filename]')
     .description('Open a file for editing')
-    .option('p, --port <number>', 'port to run server on', '4005')
+    .option('p, --port <number>', 'port to run server on', '4050')
     .action((filename = 'notebook.js', options) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const dir = path_1.default.join(process.cwd(), path_1.default.dirname(filename));
