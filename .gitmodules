@@ -1,0 +1,4 @@
+[submodule "jbook-api"]
+	path = jbook-api
+	url = https://github.com/ashrafstakala/jbook-api.git
+	branch = main
