@@ -1,16 +1,16 @@
 {
-  "name": "cli",
+  "name": "decoded-cli",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "start": "tsc --watch --preserveWatchOutput"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ashraf Stakala",
   "license": "ISC",
   "dependencies": {
     "commander": "^9.3.0",
-    "local-api": "^1.0.0"
+    "@decoded-cli/local-api": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.38",
