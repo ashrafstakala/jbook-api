@@ -36,9 +36,9 @@ const createCellsRouter = (filename, dir) => {
             }
         }
     }));
-    router.post('./cells', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-        //Takle the list of cells from the request obj
-        // Serialize them
+    router.post('/cells', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+        // Take the list of cells from the request obj
+        // serialize them
         const { cells } = req.body;
         // Write the cells into the file
         yield promises_1.default.writeFile(fullPath, JSON.stringify(cells), 'utf-8');
